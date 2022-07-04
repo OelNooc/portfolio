@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="cl.nooc.portafolio.ui.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_resumeFragment"
+            app:destination="@id/resumeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resumeFragment"
+        android:name="cl.nooc.portafolio.ui.ResumeFragment"
+        android:label="fragment_resume"
+        tools:layout="@layout/fragment_resume" >
+        <action
+            android:id="@+id/action_resumeFragment_to_proyectsFragment"
+            app:destination="@id/proyectsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/proyectsFragment"
+        android:name="cl.nooc.portafolio.ui.ProyectsFragment"
+        android:label="fragment_proyects"
+        tools:layout="@layout/fragment_proyects" >
+        <action
+            android:id="@+id/action_proyectsFragment_to_resumeFragment"
+            app:destination="@id/resumeFragment" />
+    </fragment>
+</navigation>
