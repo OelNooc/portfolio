@@ -31,5 +31,17 @@
         <action
             android:id="@+id/action_proyectsFragment_to_resumeFragment"
             app:destination="@id/resumeFragment" />
+        <action
+            android:id="@+id/action_proyectsFragment_to_educationFragment"
+            app:destination="@id/educationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/educationFragment"
+        android:name="cl.nooc.portafolio.ui.EducationFragment"
+        android:label="fragment_education"
+        tools:layout="@layout/fragment_education" >
+        <action
+            android:id="@+id/action_educationFragment_to_proyectsFragment"
+            app:destination="@id/proyectsFragment" />
     </fragment>
 </navigation>

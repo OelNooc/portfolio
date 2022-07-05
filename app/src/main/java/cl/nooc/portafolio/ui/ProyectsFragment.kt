@@ -25,7 +25,11 @@ class ProyectsFragment : Fragment() {
                 Navigation.findNavController(requireView())
                     .navigate(R.id.action_proyectsFragment_to_resumeFragment)
             }
-//            agregar fbtnNext
+
+            fbtnPNext.setOnClickListener {
+                Navigation.findNavController(requireView())
+                    .navigate(R.id.action_proyectsFragment_to_educationFragment)
+            }
         }
 
         return binding.root
