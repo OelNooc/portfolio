@@ -40,7 +40,7 @@
                         android:layout_width="300dp"
                         android:layout_height="300dp"
                         android:layout_gravity="center"
-                        tools:src="@tools:sample/avatars" />
+                        tools:src="@drawable/perfil" />
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
@@ -55,7 +55,7 @@
                         android:layout_margin="5dp"
                         android:fontFamily="sans-serif-medium"
                         android:gravity="center"
-                        android:text="TextView"
+                        android:text="@string/resume_t"
                         android:textColor="#FFFFFF"
                         android:textSize="28sp" />
                 </androidx.cardview.widget.CardView>
@@ -70,7 +70,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="3dp"
-                        android:text="@string/lorem"
+                        android:text="@string/resume"
                         android:textColor="@color/white"
                         android:textSize="20sp" />
                 </androidx.cardview.widget.CardView>

@@ -25,6 +25,7 @@ class ResumeFragment : Fragment() {
                 Navigation.findNavController(requireView())
                     .navigate(R.id.action_resumeFragment_to_proyectsFragment)
             }
+            ivPhoto.setImageResource(R.drawable.perfil)
 
             return binding.root
         }
