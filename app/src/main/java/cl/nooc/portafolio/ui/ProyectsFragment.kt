@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.Navigation
 import cl.nooc.portafolio.R
 import cl.nooc.portafolio.databinding.FragmentProyectsBinding
@@ -17,6 +18,8 @@ class ProyectsFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
+
+        (activity as AppCompatActivity).supportActionBar?.title = (getString(R.string.ab_proyects))
 
         binding = FragmentProyectsBinding.inflate(inflater, container, false)
 

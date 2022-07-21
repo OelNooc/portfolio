@@ -17,10 +17,13 @@ Duis cursus sem ut tempus suscipit. Integer vel aliquet quam. Maecenas bibendum 
         Duis cursus sem ut tempus suscipit. Integer vel aliquet quam. Maecenas bibendum enim quis sem elementum, et rutrum elit ultrices. Donec rutrum, augue eu tincidunt accumsan, nibh metus venenatis sem, vitae dapibus enim ex at nisl. Vivamus vel mi tempus, sagittis eros ac, pharetra risus. Praesent ac facilisis purus. Ut venenatis sollicitudin vestibulum. Donec pulvinar mollis metus sed hendrerit. Nullam accumsan est ante, vitae posuere neque sagittis quis. Nam mauris tortor, iaculis sit amet massa vitae, suscipit maximus ligula. Nullam quam mauris, tempor in nibh id, pretium bibendum augue. Donec sodales tempor volutpat.\n\n
     </string>
     <string name="resume_t">
-        Desarrollador Android\n
+        \n Desarrollador Android\n
     </string>
     <string name="resume">
 Me caracterizo por ser un profesional orientado a los objetivos/metas, por lo que me identifico como una persona con iniciativa, proactivo, y asertivo. Además, tengo facilidad para trabajar en equipo, y para liderar grupos de trabajo en caso de que se requiera, dado que he coordinado y liderado grupos humanos como por ejemplo al desempeñarme como delegado en el bootcamp de Desafío Latam.\n\n
 Mi objetivo laboral actualmete es encontrar un trabajo estable en el cual no sólo dedicarme a programar, sino que realizar un career path dentro de la empresa en la que me vaya a desempeñar para, de esta forma, conseguir mantenerme motivado, sentirme parte de la empresa, y poder aplicar los nuevos conocimientos que vaya adquiriendo de forma tal que el código, las buenas prácticas, la funcionalidad y la optimización del producto esté siempre a la vanguardia.\n\n
     </string>
+    <string name="ab_resume">Resumen</string>
+    <string name="ab_education">Educación</string>
+    <string name="ab_proyects">Proyectos</string>
 </resources>
